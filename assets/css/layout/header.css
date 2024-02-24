@@ -1,0 +1,90 @@
+header{
+  background-color: white;
+  padding-top: 32px;
+}
+
+header .navbar-nav{
+  position:relative;
+}
+
+header .navbar-nav li:last-of-type{
+  position:absolute;
+  right:0;
+} 
+header .navbar-nav li:last-of-type a{
+  padding:0;
+} 
+
+header .current-menu-item{
+  font-weight: 700;
+}
+
+header .navbar-nav li a{
+  color: var(--primary-color);
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 18px;
+  transition: all 0.6s ease;
+}
+header .navbar-nav li a:hover{
+  color: var(--secondary-color);
+  transition: all 0.6s ease;
+}
+header .brand{
+  display: none;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+@media (max-width:576px) {
+  header{
+    padding-top: 70px;
+  }
+  header .brand{
+    display: unset;
+  }
+  header .offcanvas{
+    background-color: var(--primary-color);
+    width: 290px !important;
+  }
+  .navbar-toggler{
+    position:absolute;
+    right: 20px;
+    padding: 0 !important;
+    border:0 !important;
+  }
+  .navbar-toggler-icon-custom{
+    background-color: black;
+    width: 25px;
+    height: 3px;
+    border-radius: 18px;
+    margin-bottom: 4px;
+  }
+  .navbar-toggler:focus{
+    box-shadow: unset !important;
+  }
+  header .navbar-nav li:last-of-type{
+    position:unset;
+  } 
+  .offcanvas-header .btn-close{
+    padding: 40px 0px 60px 0px !important;
+    margin:0 !important;
+    filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(200deg) brightness(102%) contrast(104%);
+    opacity: 1 !important;
+  }
+  .offcanvas-header .btn-close:focus{
+    box-shadow: unset !important;
+  }
+  .offcanvas-header .btn-close:focus-visible{
+    box-shadow: unset !important;
+    outline: unset !important;
+  }
+  header .navbar-nav li a{
+    color: white;
+    padding-right: unset;
+    transition: all 0.6s ease;
+  }
+  header .navbar-nav li{
+    padding-bottom: 40px;
+  }
+}

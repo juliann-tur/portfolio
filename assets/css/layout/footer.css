@@ -1,0 +1,75 @@
+footer{
+  background-color: var(--primary-color);
+  padding: 60px 0px 120px 0px;
+}
+
+footer .brand-container h1{
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0px;
+}
+footer .brand-container p{
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+footer .title{
+  color: white;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+footer .nav-items,
+footer .menu ul{
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+}
+footer .nav-items li a,
+footer .menu ul li a{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+footer .nav-items li,
+footer .menu ul li{
+  margin-bottom: 12px;
+}
+
+footer .social{
+  display: flex;
+  align-items: center;
+}
+footer .social span{
+  display: none;
+}
+footer .social li{
+  margin-right: 18px;
+  transition: all 0.4s ease;
+}
+footer .social li:hover{
+  transform: translateY(-2px);
+  transition: all 0.4s ease;
+}
+footer .social li:nth-of-type(2) img{
+  width: 25px !important;
+  height: 25px !important;
+}
+footer .social img{
+  width: 20px !important;
+  height: 20px !important;
+  filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(200deg) brightness(102%) contrast(104%);
+}
+
+
+@media (max-width: 576px) {
+  footer{
+    padding: 40px 0px;
+  }
+  footer .brand-container{
+    margin-bottom: 16px;
+  }
+  footer .title{
+    margin: 24px 0px 12px 0px;
+  }
+}

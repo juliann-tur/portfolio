@@ -1,0 +1,66 @@
+#aboutMe {
+  padding: 60px 0px;
+}
+#aboutMe .main-img{
+  width: 100%;
+}
+
+#aboutMe .title{
+  margin: 40px 0px 0px 0px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+#aboutMe .linkedin{
+  text-decoration: none !important;
+  color: var(--secondary-color) !important;
+}
+
+#aboutMe .info{
+  margin-top: 30px;
+}
+
+#aboutMe .am-block{
+  margin-top: 40px;
+}
+#aboutMe .am-block h3{
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
+#aboutMe .am-block img{
+  height: 77px;
+}
+#aboutMe .am-block .content{
+  margin-top: 32px;
+}
+#aboutMe .am-block .item{
+  margin-bottom: 12px;
+}
+#aboutMe .am-block .date{
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: var(--secondary-color);
+}
+#aboutMe .ts-title{
+  color: var(--secondary-color);
+  font-size: 14px;
+  margin-bottom:18px;
+}
+#aboutMe .ts-item{
+  color: var(--secondary-color);
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+
+@media (max-width: 576px) {  
+  #aboutMe .am-block h3{
+    font-size: 20px;
+  }
+  #aboutMe .am-block img{
+    height: 55px;
+  }
+  #aboutMe .am-block .content{
+    margin-top: 24px;
+  }
+}

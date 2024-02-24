@@ -1,0 +1,62 @@
+#contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 75px);
+  padding: 120px 0px;
+}
+
+#contact .description{
+  font-size: 20px;
+}
+
+.wpcf7,
+.wpcf7-form,
+.wpcf7-form-control-wrap input,
+.wpcf7-form-control-wrap textarea{
+  width: 100%;
+}
+.screen-reader-response{
+  display: none;
+}
+.wpcf7-not-valid-tip,
+.wpcf7-response-output{
+  color: var(--error-color) !important;
+  font-size: 12px;
+}
+.wpcf7-not-valid{
+  border: 1px solid var(--error-color) !important;
+}
+
+#contact input,
+#contact textarea{
+  padding: 12px;
+  border: 1px solid var(--light-grey-color);
+  border-radius: 8px;
+}
+#contact input::placeholder,
+#contact textarea::placeholder{
+  color: var(--light-grey-color);
+}
+
+#contact input[type="submit"]{
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
+  padding: 12px !important;
+  border-radius: 8px;
+  border: 0px;
+  transition: all 0.4s ease;
+}
+#contact input[type="submit"]:hover{
+  transform: translateY(-2px);
+  transition: all 0.4s ease;
+}
+
+
+@media (max-width: 576px) {
+  #contact{
+    padding: 45px 0px;
+  }
+}
