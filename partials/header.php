@@ -4,12 +4,10 @@
       $name = "Contact";
     } elseif ( is_page('about-me') ){
       $name = "About me";
-    } elseif ( is_page('projects') ){
-      $name = "Projects";
     } elseif ( is_page('home') ){
-      
+      $name = "Gallery";
     } else {
-      
+      $name = "Gallery";
     }
   ?>
 

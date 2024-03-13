@@ -1,0 +1,43 @@
+#projects{
+  padding: 80px 0px;
+}
+
+.carousel-indicators{
+  position: unset !important;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: #DDDDDD !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity:1 !important;
+}
+.carousel-indicators .active{
+  background-color: #848383 !important;
+}
+
+#projects .category-img{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: all 0.8s ease;
+}
+#projects .category-img:hover {
+  transform: translateY(-3px);
+  transition: all 0.8s ease;
+}
+#projects .categories-container{
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 576px){
+  #projects{
+    padding: 40px 0px;
+  }
+  #projects .categories-container{
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+}

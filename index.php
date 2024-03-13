@@ -6,12 +6,11 @@
       echo "Contact";
     } elseif ( is_page('about-me') ){
       echo "About me";
-    } elseif ( is_page('projects') ){
-      echo "Projects";
     } elseif ( is_page('home') ){
-      echo "Home";
+      echo "Projects";
     } else {
-      echo "Project";
+      $title = get_the_title();
+      echo $title;
     }
   ?>
 <?php endblock() ?> 
@@ -23,10 +22,8 @@
       include 'pages/contacto.php';
     } elseif ( is_page('about-me') ){
       include 'pages/sobre-mi.php';
-    } elseif ( is_page('projects') ){
-      include 'pages/proyectos.php';
     } elseif ( is_page('home') ){
-      include 'pages/home.php';
+      include 'pages/proyectos.php';
     } else {
       include 'pages/proyecto.php';
     }
