@@ -14,14 +14,14 @@
 <main id="aboutMe">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-8 col-lg-4 pb-4 pb-lg-0">
+      <div class="col-8 col-lg-4 pb-4 pb-lg-0 animate__animated animate__fadeIn">
         <img 
           src="<?php echo esc_url($image['url']);?>" 
           class="main-img" 
           alt="<?php echo esc_url($image['alt'])?>"
         >
       </div>
-      <div class="col-12 col-lg-6 offset-lg-2">
+      <div class="col-12 col-lg-6 offset-lg-2  animate__animated animate__fadeInDown">
         <?php echo $description ?>
         <p class="title">Linkedin</p>
         <a 
@@ -35,7 +35,7 @@
     </div>
     <div class="row pt-4 pt-lg-0">
       <div class="col-12 col-lg-6">
-        <div class="am-block work-experience">
+        <div class="am-block work-experience"  data-aos="fade" data-aos-duration="1000">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/work-experience.svg" alt="icon">
           <h3>Work experience</h3>
           <div class="content">
@@ -54,7 +54,7 @@
             <?php endforeach; ?>
           </div>
         </div>
-        <div class="am-block tech-skills">
+        <div class="am-block tech-skills"  data-aos="fade-down" data-aos-duration="1000">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/technical-skills.svg" alt="icon">
           <h3>Technical skills</h3>
           <div class="row">
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-6">
-        <div class="am-block education">
+        <div class="am-block education"  data-aos="fade" data-aos-duration="1000">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/education.svg" alt="icon">
           <h3>Education</h3>
           <div class="content">
@@ -101,7 +101,7 @@
             <?php endforeach; ?>
           </div>
         </div>
-        <div class="am-block achievments">
+        <div class="am-block achievments" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/achievments.svg" alt="icon">
           <h3>Achievments</h3>
           <div class="content">

@@ -1,14 +1,14 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-2">
+      <div class="col-12 col-lg-2" data-aos="fade-right" data-aos-duration="800">
         <div class="brand-container">
           <h1>Julian Tur</h1>
           <p>Graphic and UI Designer</p>
         </div>
       </div>
-      <div class="col-6 col-lg-2 offset-lg-1">
-        <p class="title">Navigation</p>
+      <div class="col-6 col-lg-2 offset-lg-1" data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
+        <p class="title" >Navigation</p>
         <?php
           wp_nav_menu(array(
           'menu' =>'footer-navigation',
@@ -17,7 +17,7 @@
           ));
         ?>
       </div>
-      <div class="col-6 col-lg-2">
+      <div class="col-6 col-lg-2" data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
       <p class="title">Projects</p>
         <?php
           wp_nav_menu(array(
@@ -27,7 +27,7 @@
           ));
         ?>
       </div>
-      <div class="col-12 col-lg-2 offset-lg-2">
+      <div class="col-12 col-lg-2 offset-lg-2"data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
         <p class="title">Social</p>
         <?php
           wp_nav_menu(array(

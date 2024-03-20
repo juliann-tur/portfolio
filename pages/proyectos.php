@@ -1,5 +1,6 @@
 <?php 
   $carrusel = get_field('carrusel_proyectos');
+  $imageIntro = get_field('animacion_intro');
   $posts = get_posts(
     array(
       'post_type' => 'post',
@@ -9,7 +10,7 @@
 
 <main id="projects">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade" data-aos-duration="1000">
       <div class="col-12">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -34,7 +35,7 @@
       <div class="col-12 col-lg-10">
         <div class="row categories-container">
           <?php foreach($posts as $key=>$item): ?>
-            <div class="col-6 col-lg-4">
+            <div class="col-6 col-lg-4 mb-4" data-aos="fade-down" data-aos-delay="<?php echo 200*$key ?>" data-aos-duration="1000">
               <?php 
                 $image = get_the_post_thumbnail_url( $item );
                 $title = get_the_title($item);
@@ -52,5 +53,11 @@
         </div>
       </div>
     </div>
+  </div>
+  <div id="introContainer">
+    <img 
+      src="<?php echo esc_url($imageIntro['url']);?>" 
+      alt="<?php echo esc_url($imageIntro['alt'])?>"
+    >
   </div>
 </main>

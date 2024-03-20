@@ -8,7 +8,7 @@
       echo "About me";
     } elseif ( is_page('home') ){
       echo "Projects";
-    } else {
+    }else {
       $title = get_the_title();
       echo $title;
     }

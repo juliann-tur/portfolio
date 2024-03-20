@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'All Round Gothic';
-  src: url('../../fonts/all-round-gothic-regular.otf');
+  src: url('../../fonts/all-round-gothic-regular.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'All Round Gothic';
-  src: url('../../fonts/all-round-gothic-bold.otf');
+  src: url('../../fonts/all-round-gothic-bold.ttf');
   font-weight: 700;
 }
