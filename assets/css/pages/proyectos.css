@@ -1,6 +1,9 @@
 #projects{
   padding: 80px 0px;
 }
+.home-arrow{
+  margin-top: -60px;
+}
 
 .carousel-indicators{
   position: unset !important;
@@ -63,6 +66,7 @@
   animation-play-state: paused;
 }
 
+
 .hide{
   display: none !important;
 }
@@ -100,5 +104,8 @@
   #projects .categories-container{
     margin-top: 40px;
     margin-bottom: 70px;
+  }
+  .home-arrow{
+    display: none !important;
   }
 }

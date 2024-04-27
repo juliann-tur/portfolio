@@ -16,7 +16,9 @@
           <div class="carousel-inner">
             <?php foreach($carrusel as $key=>$item): ?>
               <div class="carousel-item <?php if ($key == "0"): ?> active <?php endif; ?>" data-bs-interval="5000">
-                <img src="<?php echo esc_url($item['imagen_principal']['url'])?>" class="d-block w-100" alt="...">
+                <a href="">
+                  <img src="<?php echo esc_url($item['imagen_principal']['url'])?>" class="d-block w-100" alt="...">
+                </a>
               </div>
             <?php endforeach; ?>
           </div>
@@ -29,6 +31,9 @@
             <?php endforeach; ?>
           </div>
         </div>
+      </div>
+      <div class="col-12 home-arrow d-flex justify-content-center">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/flecha.gif" width="200" alt="arrow">
       </div>
     </div>
     <div class="row justify-content-center">

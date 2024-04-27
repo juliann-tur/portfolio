@@ -7,7 +7,7 @@
           <p>Graphic and UI Designer</p>
         </div>
       </div>
-      <div class="col-6 col-lg-2 offset-lg-1" data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
+      <div class="col-6 col-lg-2 offset-lg-1" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
         <p class="title" >Navigation</p>
         <?php
           wp_nav_menu(array(
@@ -27,7 +27,7 @@
           ));
         ?>
       </div>
-      <div class="col-12 col-lg-2 offset-lg-2"data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
+      <div class="col-12 col-lg-2 offset-lg-2"data-aos="fade-right" data-aos-duration="800" data-aos-delay="700">
         <p class="title">Social</p>
         <?php
           wp_nav_menu(array(

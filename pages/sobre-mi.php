@@ -35,10 +35,10 @@
     </div>
     <div class="row pt-4 pt-lg-0">
       <div class="col-12 col-lg-6">
-        <div class="am-block work-experience"  data-aos="fade" data-aos-duration="1000">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/work-experience.svg" alt="icon">
-          <h3>Work experience</h3>
-          <div class="content">
+        <div class="am-block work-experience">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/work-experience.svg" alt="icon" data-aos="fade" data-aos-duration="1000">
+          <h3 data-aos="fade" data-aos-delay="300" data-aos-duration="1000">Work experience</h3>
+          <div class="content" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
             <?php foreach($workexp as $key=>$item): ?>
               <div class="item">
                 <p class="date">
@@ -54,10 +54,10 @@
             <?php endforeach; ?>
           </div>
         </div>
-        <div class="am-block tech-skills"  data-aos="fade-down" data-aos-duration="1000">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/technical-skills.svg" alt="icon">
-          <h3>Technical skills</h3>
-          <div class="row">
+        <div class="am-block tech-skills">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/technical-skills.svg" alt="icon" data-aos="fade" data-aos-duration="1000">
+          <h3 data-aos="fade" data-aos-delay="300" data-aos-duration="1000">Technical skills</h3>
+          <div class="row" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
             <div class="col-6 col-lg-5">
               <div class="content">
                 <p class="ts-title">01 Software</p>
@@ -82,10 +82,10 @@
         </div>
       </div>
       <div class="col-12 col-lg-6">
-        <div class="am-block education"  data-aos="fade" data-aos-duration="1000">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/education.svg" alt="icon">
-          <h3>Education</h3>
-          <div class="content">
+        <div class="am-block education">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/education.svg" alt="icon" data-aos="fade" data-aos-duration="1000">
+          <h3 data-aos="fade" data-aos-delay="300" data-aos-duration="1000">Education</h3>
+          <div class="content" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
             <?php foreach($ed as $key=>$item): ?>
               <div class="item">
                 <p class="date">
@@ -101,10 +101,10 @@
             <?php endforeach; ?>
           </div>
         </div>
-        <div class="am-block achievments" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/achievments.svg" alt="icon">
-          <h3>Achievments</h3>
-          <div class="content">
+        <div class="am-block achievments" >
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/achievments.svg" alt="icon" data-aos="fade"data-aos-duration="1000">
+          <h3 data-aos="fade" data-aos-delay="300" data-aos-duration="1000">Achievments</h3>
+          <div class="content" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
             <?php foreach($ach as $key=>$item): ?>
               <div class="item">
                 <p class="job">

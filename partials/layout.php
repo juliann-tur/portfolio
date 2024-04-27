@@ -42,16 +42,10 @@
       AOS.init();
     </script>
     <script>
-      const seenIntro = localStorage.getItem('JT_intro');
       const intro = document.getElementById('introContainer');
-      if(seenIntro){
-        intro.classList.add("hide");
-      }else{ 
-        setTimeout(() => {
-          localStorage.setItem('JT_intro', 'true');
-          intro.classList.add("animation");
-        }, 5000)
-      }
+      setTimeout(() => {
+        intro.classList.add("animation");
+      }, 4000)
     </script>
   </body>
 </html>
