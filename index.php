@@ -22,6 +22,7 @@
       include 'pages/contacto.php';
     } elseif ( is_page('about-me') ){
       include 'pages/sobre-mi.php';
+      // Projects para prod - Home para dev
     } elseif ( is_page('projects') ){
       include 'pages/proyectos.php';
     } else {
