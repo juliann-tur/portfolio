@@ -22,7 +22,7 @@
       include 'pages/contacto.php';
     } elseif ( is_page('about-me') ){
       include 'pages/sobre-mi.php';
-    } elseif ( is_page('home') ){
+    } elseif ( is_page('projects') ){
       include 'pages/proyectos.php';
     } else {
       include 'pages/proyecto.php';
