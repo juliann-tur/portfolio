@@ -20,9 +20,12 @@
 .screen-reader-response{
   display: none;
 }
-.wpcf7-not-valid-tip,
-.wpcf7-response-output{
+.wpcf7-not-valid-tip{
   color: var(--error-color) !important;
+  font-size: 12px;
+}
+.wpcf7-response-output{
+  color:  #339944 !important;
   font-size: 12px;
 }
 .wpcf7-not-valid{
