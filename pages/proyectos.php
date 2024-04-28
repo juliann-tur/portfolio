@@ -16,7 +16,7 @@
           <div class="carousel-inner">
             <?php foreach($carrusel as $key=>$item): ?>
               <div class="carousel-item <?php if ($key == "0"): ?> active <?php endif; ?>" data-bs-interval="5000">
-                <a href="">
+                <a href="<?php echo esc_url($item['proyecto_relacionado'])?>">
                   <img src="<?php echo esc_url($item['imagen_principal']['url'])?>" class="d-block w-100" alt="...">
                 </a>
               </div>
