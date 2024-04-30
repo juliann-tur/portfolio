@@ -71,9 +71,9 @@
             <div class="col-6 col-lg-5">
               <div class="content">
                 <p class="ts-title">02 Knowledge</p>
-                <?php foreach($software as $item): ?>
+                <?php foreach($knowledge as $item): ?>
                   <p class="ts-item">
-                    <?php echo $item['nombre_del_software'] ?>
+                    <?php echo $item['nombre_del_conocimiento'] ?>
                   </p>
                 <?php endforeach; ?>
               </div>
