@@ -48,7 +48,7 @@
       const intro = document.getElementById('introContainer');
       setTimeout(() => {
         intro.classList.add("animation");
-      }, 1)
+      }, 4000)
     </script>
   </body>
 </html>
