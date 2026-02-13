@@ -1,37 +1,42 @@
 #aboutMe {
-  padding: 60px 0px;
+  padding: 96px 0px;
 }
 #aboutMe .main-img{
   width: 100%;
 }
 
-#aboutMe .title{
-  margin: 40px 0px 0px 0px;
+#aboutMe .rrss .title{
+  margin:0px 0px 0px 4px ;
   color: var(--primary-color);
-  font-weight: 700;
 }
-#aboutMe .linkedin{
+
+.about-me-description{
+  font-size: 14px;
+}
+#aboutMe .rrss-container{
+  display: flex;
+  align-items: center;
+}
+
+#aboutMe .rrss{
+  display: flex;
+  align-items: center;
   text-decoration: none !important;
   color: var(--secondary-color) !important;
+  margin-right:16px;
+}
+
+#aboutMe .skills-container{
+  margin-top:96px;
 }
 
 #aboutMe .info{
   margin-top: 30px;
 }
-
-#aboutMe .am-block{
-  margin-top: 40px;
-}
 #aboutMe .am-block h3{
-  margin-top: 10px;
-  font-size: 26px;
+  margin-bottom: 12px;
+  font-size: 18px;
   font-weight: 700;
-}
-#aboutMe .am-block img{
-  height: 60px;
-}
-#aboutMe .am-block .content{
-  margin-top: 32px;
 }
 #aboutMe .am-block .item{
   margin-bottom: 12px;
@@ -39,28 +44,33 @@
 #aboutMe .am-block .date{
   font-size: 14px;
   margin-bottom: 0px;
-  color: var(--secondary-color);
+  color: var(--grey-color);
+}
+#aboutMe .knowledge-content{
+  margin-top: 32px;
 }
 #aboutMe .ts-title{
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 14px;
-  margin-bottom:18px;
+  margin-bottom:12px;
 }
 #aboutMe .ts-item{
-  color: var(--secondary-color);
+  color: var(--grey-color);
   font-size: 14px;
   margin-bottom: 2px;
 }
-
+#aboutMe .job{
+  margin-bottom:12px;
+}
 
 @media (max-width: 576px) {  
-  #aboutMe .am-block h3{
-    font-size: 20px;
+  #aboutMe {
+    padding: 16px 0px 0px 0px;
+  } 
+  #aboutMe .skills-container{
+    margin-top:32px;
   }
-  #aboutMe .am-block img{
-    height: 55px;
-  }
-  #aboutMe .am-block .content{
-    margin-top: 24px;
+  #aboutMe .am-block{
+    margin-bottom: 32px;
   }
 }

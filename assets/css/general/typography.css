@@ -1,11 +1,1 @@
-@font-face {
-  font-family: 'All Round Gothic';
-  src: url('../../fonts/all-round-gothic-regular.ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'All Round Gothic';
-  src: url('../../fonts/all-round-gothic-bold.ttf');
-  font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');

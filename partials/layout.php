@@ -20,11 +20,14 @@
   <body>
     <style>
       :root{
-        --primary-color: #202020;
-        --secondary-color: #8A8A8A;
-        --light-grey-color: #AFAFAF;
+        --primary-color: #0B0A0C;
+        --secondary-color: #6210D5;
+        --secondary-light-color:#FDFBFF;
+        --light-grey-color: #EAE7EE;
+        --grey-color: #848288;
         --background-color: #fff;
-        --error-color: #d01b1b;
+        --error-color: #AD0000;
+        --success-color: #016100;
       }
     </style>
 
@@ -45,7 +48,7 @@
       const intro = document.getElementById('introContainer');
       setTimeout(() => {
         intro.classList.add("animation");
-      }, 4000)
+      }, 1)
     </script>
   </body>
 </html>

@@ -8,7 +8,11 @@
 }
 
 #contact .description{
-  font-size: 20px;
+  font-size: 14px;
+}
+#contact label{
+  font-size: 14px !important;
+  margin-bottom: 4px !important;
 }
 
 .wpcf7,
@@ -37,6 +41,7 @@
   padding: 12px;
   border: 1px solid var(--light-grey-color);
   border-radius: 8px;
+  background-color: var(--secondary-light-color);
 }
 #contact input::placeholder,
 #contact textarea::placeholder{
@@ -44,7 +49,7 @@
 }
 
 #contact input[type="submit"]{
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
   width: 100%;
   padding: 12px !important;

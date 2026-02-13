@@ -23,7 +23,7 @@
     } elseif ( is_page('about-me') ){
       include 'pages/sobre-mi.php';
       // Projects para prod - Home para dev
-    } elseif ( is_page('projects') ){
+    } elseif ( is_page('home') ){
       include 'pages/proyectos.php';
     } else {
       include 'pages/proyecto.php';

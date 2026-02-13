@@ -5,9 +5,9 @@
     } elseif ( is_page('about-me') ){
       $name = "About me";
     } elseif ( is_page('home') ){
-      $name = "Gallery";
+      $name = " ";
     } else {
-      $name = "Gallery";
+      $name = " ";
     }
   ?>
 

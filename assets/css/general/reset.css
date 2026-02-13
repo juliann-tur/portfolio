@@ -1,4 +1,8 @@
 
 *{
-  font-family: 'All Round Gothic', 'Helvetica', sans-serif;
+  font-family: 'Rubik', 'Helvetica', sans-serif;
+}
+
+.container{
+  max-width: 1248px;
 }
