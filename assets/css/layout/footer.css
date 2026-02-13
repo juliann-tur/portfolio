@@ -67,7 +67,6 @@ footer .social li:nth-of-type(2) img{
 footer .social img{
   width: 20px !important;
   height: 20px !important;
-  filter: brightness(0) saturate(100%) invert(15%) sepia(46%) saturate(5068%) hue-rotate(259deg) brightness(109%) contrast(126%);
 }
 
 

@@ -28,6 +28,18 @@
               </div>
             <?php endforeach; ?>
           </div>
+          <div class="w-100 h-100" style="position:absolute;top:0">
+            <div class="indicators-container">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/chevron-left.svg" alt="Linkedin">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/chevron-right.svg" alt="Linkedin">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

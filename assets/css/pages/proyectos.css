@@ -6,6 +6,30 @@
   margin-bottom: 144px;
 }
 
+#projects .indicators-container{
+  max-width: 1248px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#projects .carousel-control-prev,
+#projects .carousel-control-next{
+  width:48px !important;
+  height: 48px  !important;
+  border-radius: 50% !important;
+  border: 1px solid #EAE7EE !important;
+  background-color: #FDFBFF !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  opacity: 1 !important;
+}
+
 #projects .projects-title{
   margin-bottom: 16px;
   font-size: 18px;
@@ -33,7 +57,7 @@
   position: fixed;
   top:0;
   left:0;
-  z-index: 900000;
+  z-index: 100000;
   background-color: white;
   animation-name: animation;
   animation-iteration-count: 1;
@@ -98,5 +122,9 @@
   }
   .home-arrow{
     display: none !important;
+  }
+  #projects .carousel-control-prev,
+  #projects .carousel-control-next{
+    margin-inline: 16px;
   }
 }
